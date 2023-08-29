@@ -1,5 +1,6 @@
 import react from 'react'
 import React from "react";
+import Image from 'next/image'
 import Link from "next/link.js";
 import RegisterForm from "@/app/component/registerForm.jsx";
 
@@ -25,7 +26,7 @@ const register = () => {
 
                 {/* image */}
                 <div className="md:block hidden w-1/2">
-                    <img className="rounded-2xl" src="https://images.unsplash.com/photo-1616606103915-dea7be788566?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="Login" />
+                    <Image className="rounded-2xl" src="https://images.unsplash.com/photo-1616606103915-dea7be788566?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="Login" />
                 </div>
             </div>
         </section>

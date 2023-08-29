@@ -12,7 +12,7 @@ const HomePage = () => {
     const checkValue = useBasketStore((state) => state.searchValue);
 
     useEffect(() => {
-        axios.get('https://djangoappardaemrekarabacak.onrender.com/api/products/?format=json')
+        axios.get('https://djangoappardaemrekarabacak.onrender.com/api/products/?format=j   son')
             .then((response) => {
                 setRepo(response.data);
             })
